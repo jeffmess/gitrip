@@ -13,6 +13,7 @@ A command line utility which deletes merged git branches conveniently.
 # Todo
 
 - [ ] Force users to add-protected-branches as we won't allow this to work until default branches are added.
+- [ ] Delete on remote. 
 
 ### Why
 
@@ -29,7 +30,7 @@ View help
 gitrip --help
 ```
 
-Git rip allows you to add protected branches which will 
+Git rip allows you to add protected branches which will prevent those branches from being removed.
 
 Add a protected directory and confirm
 ```sh
